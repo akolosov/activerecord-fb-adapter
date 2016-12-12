@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.files = Dir['README.md', 'lib/**/*']
 
   s.add_dependency 'fb', '>= 0.7.4'
-  s.add_dependency 'activerecord', '>= 3.2.0'
+  s.add_dependency 'activerecord', '4.2.6'
 
   s.add_development_dependency 'mocha'
   s.add_development_dependency 'pry-byebug'
